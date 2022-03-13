@@ -1,4 +1,4 @@
-IMG Tool é uma ferramenta que tem seu foco principal, de criar e modificar `super.img` e `system.img`
+IMG Tool é uma ferramenta que tem seu foco principal, de criar e modificar `super.img` e a `system.img`
 
 ### Instalação
 
