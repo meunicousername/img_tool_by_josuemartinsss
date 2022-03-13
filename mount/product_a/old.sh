@@ -1,0 +1,1 @@
+cd .. && cd .. && mkdir product_a_old && sudo mount -o ro product_a_old.img product_a_old; read -p "APERTE ENTER, PARA FINALIZAR DE MODIFICAR A IMG " finalizar; sudo umount product_a_old && rm -r product_a_old; echo -e "FINALIZADO COM  SUCESSO! SUA IMG ESTA PRONTA PARA SER, INSTALADA! "
