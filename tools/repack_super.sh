@@ -1,7 +1,5 @@
-system_a=`stat -c '%n %s' system_a_old.img`
-system_a=${system_a#* }
-
-cd .. && system_ext_a=`stat -c '%n %s' system_ext_a_old.img`
+cd .. && system_a=`stat -c '%n %s' system_a_old.img`
+system_a=${system_a#* } && system_ext_a=`stat -c '%n %s' system_ext_a_old.img`
 system_ext_a=${system_ext_a#* } && product_a=`stat -c '%n %s' product_a_old.img`
 product_a=${product_a#* } && vendor_a=`stat -c '%n %s' vendor_a_old.img`
 vendor_a=${vendor_a#* } && soma=$((system_a + system_ext_a + product_a + vendor_a)) && raw=`stat -c '%n %s' super_raw.img`
