@@ -1,0 +1,1 @@
+cd .. && ./simg2img system.img system_a_old.img
